@@ -1,8 +1,6 @@
 # Deployments
 
-The production X Layer deployment has not been published yet.
-
-After deployment, this directory will contain a sanitized, read-back manifest with:
+This directory contains the sanitized, read-back X Layer production manifest. It records:
 
 - chain ID and deployment block;
 - production hook and directly trusted contract addresses;
@@ -11,4 +9,4 @@ After deployment, this directory will contain a sanitized, read-back manifest wi
 - one reviewable example pool ID using the production hook;
 - verified-source and audit links when available.
 
-No private key, RPC credential, wallet balance, internal operator address, or live-fund script belongs in this directory.
+No private key, RPC credential, wallet balance, internal operator address, or live-fund script belongs in this directory. The repository itself is the reproducible source reference; no third-party audit or explorer source-verification claim is made yet.

@@ -6,9 +6,9 @@ This repository intentionally contains only the on-chain contracts, their direct
 
 ## Status
 
-This is a pre-deployment source snapshot. The production X Layer hook address, example pool ID, deployment transactions, runtime code hashes, and verified-source links will be published in `deployments/` after the production deployment has been completed and read back on-chain.
+The production X Layer stack was deployed on chain ID `196` from this source snapshot and read back on-chain. The production hook is `0xd5EbD05d63fDEb7ef3f91ddC387121623b51a8cc`.
 
-No production address is implied by any local test fixture.
+See [`deployments/xlayer-mainnet.json`](deployments/xlayer-mainnet.json) for the component addresses, runtime code hashes, deployment transactions, and a live review pool using the production hook. Local test fixtures do not define production addresses.
 
 ## Hook behavior
 

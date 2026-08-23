@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "network": "X Layer Mainnet",
+  "chainId": 196,
+  "deploymentBlock": 68727142,
+  "sourceCommit": "467c55f49e1a702e384b0c410a30c8e4619cda7a",
+  "compiler": {
+    "solidity": "0.8.26",
+    "optimizerRuns": 10,
+    "viaIR": true,
+    "evmVersion": "cancun"
+  },
+  "contracts": {
+    "launchpad": {
+      "address": "0x9510A1444b961D46AE9c76Ba00aDb55217754696",
+      "deploymentTransaction": "0x5258b5a24e4f64aac9f437b6e0352fde48a4d0fa0cbbc1efdb9f53d761481eb2",
+      "runtimeCodeHash": "0xccfb2807911dab678bb447654b96f727d4a5142c352aa2a9214ef25c13010bd9"
+    },
+    "factory": {
+      "address": "0xb88bF5dbBb138456F5d81D631117178B7537Da3b",
+      "deploymentTransaction": "0x399e51907b45257138d770c4142dce4c8f229a553adc363b3cf8504e0f4b2b64",
+      "runtimeCodeHash": "0x724725d1dfe0a94f358552d38f68be88beae63de4af5917e086de30c6308be68"
+    },
+    "vault": {
+      "address": "0x4cE4cFEa335dAcB02dD1b73ceE36e9c0758a7C0a",
+      "deploymentTransaction": "0xc8f20d19ab7cd7c70106232fa4597974c308f01614203b9d97c2c561b9070a70",
+      "runtimeCodeHash": "0x542a56bc6d2aacdde756297767d39eef386c44213525603b704018f8984927db"
+    },
+    "dividendVault": {
+      "address": "0x9D6a1a3e717F87D853D7114D76d32750E5521EFf",
+      "deploymentTransaction": "0xcaee35e37d7b27e1ab369090d777f63589c59858ef99bcc918ca31878d931165",
+      "runtimeCodeHash": "0x6c3d16d49489f7c771bb794628a38e7f4c0a777b599abdfdeaaa2491143bdc5e"
+    },
+    "hook": {
+      "address": "0xd5EbD05d63fDEb7ef3f91ddC387121623b51a8cc",
+      "deploymentTransaction": "0x49d0ed1646cb8e3bcfec544f2176184c7313cbf435f11506c9ebf564bce122c7",
+      "runtimeCodeHash": "0x890b4aff79e58aa99985a5145fea6c677bba84344bf0ee871093000b807ee830"
+    },
+    "settler": {
+      "address": "0x41c510c29f93e9a8C4C94b61cCccAA4408c030B0",
+      "deploymentTransaction": "0x76a2035be28f6a1c315b493a8bbf327f1bc9a68fdf16a0d2c72e9d5c79cd38d3",
+      "runtimeCodeHash": "0x96308f148f61e0a0c8c9c6826784edcdde05548dd3d527798aabba34a3923e27"
+    },
+    "positionLocker": {
+      "address": "0x4800790DC78e8925DdEDeaE5E126D8523a31eCfB",
+      "deploymentTransaction": "0xf3b1cfbc6dcbdfd0050d886a0b416008957e6c4288c441c109c2e231aedfb92c",
+      "runtimeCodeHash": "0xceaed01e03f1d3413fbd0cedf26830817244031dd98cf5b0e289ebc7456c2c4c"
+    },
+    "graduationVenue": {
+      "address": "0x933569278Ac4e8AAffB83d15E8916F53e73a80D6",
+      "deploymentTransaction": "0xf05c036f7e0216b65724f85b890c4e2d3e72a300525db335a7e3411cc7e16a11",
+      "runtimeCodeHash": "0xd82309c72366e5f7b07fb6cc98a53436b6626f32eb497204c6db75f2fa2606f3"
+    }
+  },
+  "reviewPool": {
+    "token": "0xEB320197C9274E9cd3f8C5259519dBFF367E5555",
+    "poolId": "0xcfd413e0cd481fd7ca01f3825d841e22b32f494b5cf069286deebfa52b33d8a4",
+    "creationTransaction": "0x1be2e893a5a862bb395315ba1d65912041089a1150128c88091ad42f03c8543c",
+    "positionTokenId": "8799",
+    "tokenOwner": "0x000000000000000000000000000000000000dEaD",
+    "positionLocker": "0x4800790DC78e8925DdEDeaE5E126D8523a31eCfB",
+    "taxBps": {
+      "marketing": 0,
+      "holderDividend": 0,
+      "buyback": 0,
+      "burn": 0
+    },
+    "emptyHookDataQuote": {
+      "inputNative": "100000000000000",
+      "outputToken": "39435839282492719259812",
+      "gasEstimate": "74071"
+    }
+  }
+}

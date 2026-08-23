@@ -1,0 +1,24 @@
+{
+  "name": "okmeme-contracts",
+  "version": "1.0.0",
+  "description": "Public, reproducible Solidity source for the OK.MEME Uniswap v4 hook trust path on X Layer",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:hook": "hardhat test test/V4TaxHook.test.ts test/V4Graduation.test.ts test/DividendVault.test.ts",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^17.3.1",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0",
+    "@uniswap/v4-core": "1.0.2",
+    "@uniswap/v4-periphery": "1.0.3",
+    "openzeppelin-contracts": "npm:@openzeppelin/contracts@^5.6.1",
+    "permit2": "github:Uniswap/permit2",
+    "solmate": "6.8.0"
+  }
+}

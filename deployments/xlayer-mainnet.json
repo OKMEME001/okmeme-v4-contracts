@@ -34,7 +34,8 @@
     "hook": {
       "address": "0xd5EbD05d63fDEb7ef3f91ddC387121623b51a8cc",
       "deploymentTransaction": "0x49d0ed1646cb8e3bcfec544f2176184c7313cbf435f11506c9ebf564bce122c7",
-      "runtimeCodeHash": "0x890b4aff79e58aa99985a5145fea6c677bba84344bf0ee871093000b807ee830"
+      "runtimeCodeHash": "0x890b4aff79e58aa99985a5145fea6c677bba84344bf0ee871093000b807ee830",
+      "verifiedSourceUrl": "https://web3.okx.com/zh-hans/explorer/x-layer/evm/address/0xd5EbD05d63fDEb7ef3f91ddC387121623b51a8cc"
     },
     "settler": {
       "address": "0x41c510c29f93e9a8C4C94b61cCccAA4408c030B0",

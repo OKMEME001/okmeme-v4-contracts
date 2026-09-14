@@ -18,4 +18,4 @@ Exact-output swaps are rejected. All supported product and compatibility paths u
 
 ## Routing allowlist
 
-Because the hook uses return-delta permission flags, its production address must be reviewed for the Uniswap routing allowlist. A production address is not published until deployment and on-chain verification are complete.
+Because the hook uses return-delta permission flags, its production address requires a separate Uniswap Labs routing review. The deployed, [explorer-verified production hook](https://web3.okx.com/zh-hans/explorer/x-layer/evm/address/0xd5EbD05d63fDEb7ef3f91ddC387121623b51a8cc) is `0xd5EbD05d63fDEb7ef3f91ddC387121623b51a8cc`; its example pool ID and code hash are in the [deployment manifest](../deployments/xlayer-mainnet.json). An earlier approval for `0xabc55c84a854E0E9A65ABd29F40F49B280b440cC` covered a different, retired test deployment and does not approve this hook. Routing review is not a security audit or endorsement.

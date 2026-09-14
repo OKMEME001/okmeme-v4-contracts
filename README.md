@@ -8,7 +8,7 @@ This repository intentionally contains only the on-chain contracts, their direct
 
 The production X Layer stack was deployed on chain ID `196` from this source snapshot and read back on-chain. The production hook is `0xd5EbD05d63fDEb7ef3f91ddC387121623b51a8cc`.
 
-See [`deployments/xlayer-mainnet.json`](deployments/xlayer-mainnet.json) for the component addresses, runtime code hashes, deployment transactions, and a live review pool using the production hook. Local test fixtures do not define production addresses.
+See [`deployments/xlayer-mainnet.json`](deployments/xlayer-mainnet.json) for the component addresses, runtime code hashes, deployment transactions, and a live review pool using the production hook. The [X Layer explorer shows the hook source as verified](https://web3.okx.com/zh-hans/explorer/x-layer/evm/address/0xd5EbD05d63fDEb7ef3f91ddC387121623b51a8cc). Local test fixtures do not define production addresses.
 
 ## Hook behavior
 
